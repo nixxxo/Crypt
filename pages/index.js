@@ -9,7 +9,7 @@ export default function Home() {
     <div className='bg-gradient-to-tr from-indigo-600 via-violet-600 to-purple-600 flex h-screen w-full text-center'>
       <div className='m-auto flex flex-col'>
         {/* <motion.div  animate={{ scale: 2 }}> */}
-          <img src="NoText.png" alt="crypt-logo" className='m-auto mb-3 h-36'/>
+          <img src="NoText.png" alt="crypt-logo" className='animate-spin-slow m-auto mb-3 h-36'/>
         {/* </motion.div> */}
         <ReactTypingEffect
           className='text-white font-sans font-bold text-2xl md:text-3xl lg:text-5xl'
