@@ -1,10 +1,15 @@
 import React from 'react';
 import ReactTypingEffect from 'react-typing-effect';
 import { motion } from "framer-motion"
+import Head from 'next/head'
 
 export default function Home() {
   return (
     <div className='bg-gradient-to-tr from-indigo-600 via-violet-600 to-purple-600 flex flex-col h-screen w-full text-center'>
+        <Head>
+        <title>CRYPT</title>
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
       <div className='m-auto flex flex-col'>
         {/* <motion.div  animate={{ scale: 2 }}> */}
           <img src="NoText.png" alt="crypt-logo" className='animate-spin-slow m-auto mb-3 h-36'/>
