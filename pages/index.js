@@ -20,7 +20,7 @@ export default function Home() {
           eraseSpeed={100}
           text={["Join the completely FREE crypto community.", "Click down below!", "Find like-minded individuals."]}
         />
-        <div className='flex flex-row mt-10'>
+        <div className='flex flex-row m-auto mt-10'>
           <a href="https://discord.gg/3bZDVq84cP"><button className="btn btn-primary mx-1">JOIN NOW</button></a>
           <a href="https://upgrade.chat/980516915258753084/upgrades?productId=03b4532f-f27c-4d58-ae4d-f8370003ca07"><button className="btn btn-secondary mx-1">UPGRADE NOW</button></a>
         </div>
